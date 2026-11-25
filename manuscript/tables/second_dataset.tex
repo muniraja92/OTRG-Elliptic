@@ -1,0 +1,17 @@
+\begin{tabular}{lcccc}
+\toprule
+& \multicolumn{2}{c}{YelpChi} & \multicolumn{2}{c}{Amazon} \\
+Model & PR-AUC & F1 & PR-AUC & F1 \\
+\midrule
+LightGBM, node features & 0.854 $\pm$ 0.005 & 0.768 & 0.922 $\pm$ 0.005 & 0.871 \\
+LightGBM + degree features only & 0.900 $\pm$ 0.007 & 0.814 & 0.928 $\pm$ 0.012 & 0.872 \\
+LightGBM + graph view & 0.917 $\pm$ 0.006 & 0.832 & 0.937 $\pm$ 0.003 & 0.863 \\
+LightGBM + rewired view (configuration model) & 0.825 $\pm$ 0.006 & 0.746 & 0.923 $\pm$ 0.005 & 0.869 \\
+OTRG & 0.923 $\pm$ 0.005 & 0.842 & 0.935 $\pm$ 0.005 & 0.874 \\
+Constant gate & 0.921 $\pm$ 0.005 & 0.839 & 0.936 $\pm$ 0.005 & 0.871 \\
+Logistic stacking & 0.923 $\pm$ 0.005 & 0.842 & 0.937 $\pm$ 0.004 & 0.867 \\
+Equal-weight average & 0.915 $\pm$ 0.005 & 0.834 & 0.934 $\pm$ 0.005 & 0.875 \\
+GraphSAGE (relation union) & 0.703 $\pm$ 0.004 & 0.630 & 0.912 $\pm$ 0.013 & 0.868 \\
+Relation-aware GraphSAGE & 0.780 $\pm$ 0.007 & 0.700 & 0.911 $\pm$ 0.011 & 0.851 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,16 @@
+\begin{tabular}{llccc}
+\toprule
+Perturbation & Level & OTRG & LightGBM, all features & LightGBM, all + graph \\
+\midrule
+None & 0 & 0.802 & 0.801 & 0.803 \\
+Gaussian noise ($\times$ robust spread) & 0.05 & 0.701 & 0.652 & 0.734 \\
+Gaussian noise ($\times$ robust spread) & 0.1 & 0.641 & 0.580 & 0.688 \\
+Gaussian noise ($\times$ robust spread) & 0.25 & 0.526 & 0.460 & 0.584 \\
+Gaussian noise ($\times$ robust spread) & 0.5 & 0.427 & 0.369 & 0.490 \\
+Quantile-space noise (s.d.) & 0.01 & 0.803 & 0.802 & 0.805 \\
+Quantile-space noise (s.d.) & 0.02 & 0.803 & 0.801 & 0.806 \\
+Quantile-space noise (s.d.) & 0.05 & 0.800 & 0.798 & 0.804 \\
+Features set to training median (fraction) & 0.1 & 0.793 & 0.789 & 0.797 \\
+Features set to training median (fraction) & 0.25 & 0.767 & 0.754 & 0.778 \\
+\bottomrule
+\end{tabular}

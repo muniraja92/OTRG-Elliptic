@@ -1,0 +1,12 @@
+\begin{tabular}{lcccccc}
+\toprule
+& \multicolumn{3}{c}{Steps 35--42} & \multicolumn{3}{c}{Steps 43--49} \\
+Model & PR-AUC & F1 & Oracle F1 & PR-AUC & F1 & Oracle F1 \\
+\midrule
+OTRG & 0.922 & 0.906 & 0.916 & 0.045 & 0.028 & 0.093 \\
+LightGBM, all features & 0.922 & 0.900 & 0.913 & 0.044 & 0.028 & 0.091 \\
+LightGBM + graph view & 0.921 & 0.911 & 0.916 & 0.049 & 0.030 & 0.101 \\
+XGBoost & 0.923 & 0.887 & 0.913 & 0.047 & 0.029 & 0.097 \\
+Random forest (tuned) & 0.917 & 0.914 & 0.916 & 0.047 & 0.032 & 0.084 \\
+\bottomrule
+\end{tabular}

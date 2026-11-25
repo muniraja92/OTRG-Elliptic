@@ -1,0 +1,14 @@
+\begin{tabular}{lcccc}
+\toprule
+Variant & PR-AUC & F1 & F1 (steps 43--49) & ECE \\
+\midrule
+OTRG (proposed) & 0.803 $\pm$ 0.001 & 0.811 $\pm$ 0.010 & 0.028 $\pm$ 0.002 & 0.021 $\pm$ 0.000 \\
+Constant gate (no reliability inputs) & 0.802 $\pm$ 0.001 & 0.811 $\pm$ 0.012 & 0.029 $\pm$ 0.002 & 0.021 $\pm$ 0.001 \\
+Gate on structural inputs only & 0.802 $\pm$ 0.001 & 0.805 $\pm$ 0.008 & 0.027 $\pm$ 0.001 & 0.021 $\pm$ 0.000 \\
+Logistic stacking of the two experts & 0.803 $\pm$ 0.001 & 0.810 $\pm$ 0.008 & 0.028 $\pm$ 0.002 & 0.021 $\pm$ 0.000 \\
+Equal-weight average of the two experts & 0.803 $\pm$ 0.001 & 0.812 $\pm$ 0.006 & 0.028 $\pm$ 0.001 & 0.021 $\pm$ 0.001 \\
+Gate over node and shuffled-graph experts & 0.802 $\pm$ 0.001 & 0.802 $\pm$ 0.012 & 0.029 $\pm$ 0.003 & 0.022 $\pm$ 0.001 \\
+LightGBM, all features + graph view & 0.802 $\pm$ 0.001 & 0.820 $\pm$ 0.005 & 0.030 $\pm$ 0.001 & 0.020 $\pm$ 0.001 \\
+LightGBM, all features & 0.802 $\pm$ 0.001 & 0.801 $\pm$ 0.012 & 0.028 $\pm$ 0.003 & 0.022 $\pm$ 0.001 \\
+\bottomrule
+\end{tabular}

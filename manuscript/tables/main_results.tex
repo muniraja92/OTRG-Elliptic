@@ -1,0 +1,17 @@
+\begin{tabular}{lcccccc}
+\toprule
+Model & PR-AUC & F1 & Precision & Recall & F1 (steps 43--49) & Brier \\
+\midrule
+OTRG (proposed) & 0.803 $\pm$ 0.001 & 0.811 $\pm$ 0.010 & 0.914 $\pm$ 0.032 & 0.729 $\pm$ 0.005 & 0.028 $\pm$ 0.002 & 0.021 $\pm$ 0.000 \\
+XGBoost & 0.804 $\pm$ 0.002 & 0.779 $\pm$ 0.031 & 0.832 $\pm$ 0.076 & 0.735 $\pm$ 0.006 & 0.029 $\pm$ 0.003 & 0.024 $\pm$ 0.002 \\
+LightGBM, all features + graph view & 0.802 $\pm$ 0.001 & 0.820 $\pm$ 0.005 & 0.946 $\pm$ 0.017 & 0.724 $\pm$ 0.002 & 0.030 $\pm$ 0.001 & 0.020 $\pm$ 0.000 \\
+LightGBM, all features & 0.802 $\pm$ 0.001 & 0.801 $\pm$ 0.012 & 0.888 $\pm$ 0.036 & 0.731 $\pm$ 0.005 & 0.028 $\pm$ 0.003 & 0.021 $\pm$ 0.000 \\
+Random forest (tuned) & 0.794 $\pm$ 0.001 & 0.827 $\pm$ 0.005 & 0.966 $\pm$ 0.018 & 0.723 $\pm$ 0.004 & 0.032 $\pm$ 0.001 & 0.020 $\pm$ 0.000 \\
+Random forest (Weber et al.\ configuration) & 0.781 $\pm$ 0.005 & 0.726 $\pm$ 0.087 & 0.746 $\pm$ 0.194 & 0.730 $\pm$ 0.017 & 0.027 $\pm$ 0.004 & 0.025 $\pm$ 0.002 \\
+LightGBM, local features & 0.785 $\pm$ 0.002 & 0.763 $\pm$ 0.011 & 0.812 $\pm$ 0.031 & 0.721 $\pm$ 0.005 & 0.033 $\pm$ 0.007 & 0.024 $\pm$ 0.000 \\
+GraphSAGE (two layers) & 0.688 $\pm$ 0.017 & 0.669 $\pm$ 0.005 & 0.829 $\pm$ 0.089 & 0.568 $\pm$ 0.051 & 0.013 $\pm$ 0.008 & 0.031 $\pm$ 0.001 \\
+Mowst-style mixture (MLP + GraphSAGE) & 0.643 $\pm$ 0.018 & 0.652 $\pm$ 0.021 & 0.779 $\pm$ 0.056 & 0.563 $\pm$ 0.033 & 0.022 $\pm$ 0.005 & 0.033 $\pm$ 0.002 \\
+GCN (two layers) & 0.643 $\pm$ 0.015 & 0.632 $\pm$ 0.020 & 0.769 $\pm$ 0.026 & 0.538 $\pm$ 0.036 & 0.004 $\pm$ 0.005 & 0.035 $\pm$ 0.001 \\
+Logistic regression & 0.359 & 0.475 & 0.448 & 0.505 & 0.031 & 0.053 \\
+\bottomrule
+\end{tabular}
