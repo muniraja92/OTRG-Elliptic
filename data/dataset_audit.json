@@ -1,0 +1,30 @@
+{
+  "n_nodes": 203769,
+  "n_feature_cols": 165,
+  "n_edges": 234355,
+  "dup_txId": 0,
+  "dup_feature_rows_excl_id": 34,
+  "dup_edges": 0,
+  "self_loops": 0,
+  "missing_values": 0,
+  "class_counts": {
+    "unknown": 157205,
+    "2": 42019,
+    "1": 4545
+  },
+  "edges_crossing_time_steps": 0,
+  "time_steps": [
+    1,
+    49
+  ],
+  "max_single_feature_auc": 0.8430890148678353,
+  "n_features_single_auc_gt_0.9": 0,
+  "duplicate_vectors_labelled": 11,
+  "conflicting_duplicate_vectors": 0,
+  "isolated_nodes": 0,
+  "sha256": {
+    "elliptic_txs_features.csv": "fd7f83573443c9e302e371d3f110e3b6224160f5d1ed8a287757936127800ff0",
+    "elliptic_txs_edgelist.csv": "a35053ba68a98e4382cae2ba65b9d9e36b23b6439e02dff084971b1b72a5156e",
+    "elliptic_txs_classes.csv": "93e2e7b2405c735ba752bf6ba06b947561deddd1f5a8fc91e46f6a4c0e439493"
+  }
+}
