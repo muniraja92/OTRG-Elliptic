@@ -1,0 +1,11 @@
+{
+  "heads": 4,
+  "hidden_per_head": 25,
+  "n_edges_with_selfloops": 672479,
+  "sec_per_epoch": [
+    2.7338876724243164,
+    1.9067349433898926,
+    1.9217963218688965
+  ],
+  "median_sec_per_epoch": 1.9217963218688965
+}

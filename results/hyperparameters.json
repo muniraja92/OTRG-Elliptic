@@ -1,0 +1,29 @@
+{
+  "LGBM-LF": {
+    "num_leaves": 63,
+    "min_child_samples": 20,
+    "n_estimators": 186
+  },
+  "LGBM-AF": {
+    "num_leaves": 15,
+    "min_child_samples": 20,
+    "n_estimators": 470
+  },
+  "LGBM-AF+G": {
+    "num_leaves": 31,
+    "min_child_samples": 50,
+    "n_estimators": 322
+  },
+  "LGBM-AF+Gshuf": {
+    "num_leaves": 63,
+    "min_child_samples": 50,
+    "n_estimators": 917
+  },
+  "XGB": {
+    "max_depth": 6,
+    "n_estimators": 349
+  },
+  "RF": {
+    "max_features": "sqrt"
+  }
+}

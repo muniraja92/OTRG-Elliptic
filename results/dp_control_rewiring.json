@@ -1,0 +1,36 @@
+{
+  "in_degree_identical": true,
+  "out_degree_identical": true,
+  "same_step": true,
+  "frac_original_directed_edges_retained": 0.0070918051673742825,
+  "frac_original_undirected_edges_retained": 0.007394764353224809,
+  "reciprocal_edges_original": 0,
+  "reciprocal_edges_rewired": 58,
+  "original": {
+    "n_edges": 234355,
+    "self_loops": 0,
+    "multi_edge_excess": 0,
+    "distinct_directed_pairs": 234355
+  },
+  "rewired": {
+    "n_edges": 234355,
+    "self_loops": 0,
+    "multi_edge_excess": 0,
+    "distinct_directed_pairs": 234355
+  },
+  "passes_used": 1,
+  "swaps_accepted": 782,
+  "initial_selfloops": 59,
+  "initial_dup_edges": 1289,
+  "rewire_seconds": 0.634772539138794,
+  "rng_seed": 2024,
+  "uniform_shuffle": {
+    "n_edges": 234355,
+    "self_loops": 45,
+    "multi_edge_excess": 42,
+    "distinct_directed_pairs": 234313,
+    "frac_nodes_in_degree_changed": 0.6718097453489,
+    "frac_nodes_out_degree_changed": 0.6839705745231119
+  },
+  "edges_sha256": "0754c7435659785f420a577eb43d0c7d4f80c1a38a9e817a14bf046215997c21"
+}

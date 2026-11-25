@@ -1,0 +1,9 @@
+{
+  "n_features": 165,
+  "n_zero_iqr": 27,
+  "n_mad_fallback_used": 0,
+  "n_unperturbed_zero_robust_spread": 27,
+  "n_unperturbed_local": 13,
+  "n_unperturbed_aggregate": 14,
+  "median_sd_over_robust_spread": 7.11891506508402
+}

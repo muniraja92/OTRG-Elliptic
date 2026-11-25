@@ -1,0 +1,16 @@
+{
+  "seed": 42,
+  "selection_block": "labelled steps 30-34 (validation only)",
+  "lr_1e-2": {
+    "val_pr_auc": 0.8738534877472286,
+    "source": "existing GCN_seed42.npz oot (max 400 epochs, patience 60)",
+    "epochs": 211
+  },
+  "lr_1e-3": {
+    "val_pr_auc": 0.8115857564697525,
+    "epochs": 591,
+    "max_epochs": 600,
+    "patience": 60,
+    "fit_s": 501.6846351623535
+  }
+}

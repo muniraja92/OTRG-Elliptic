@@ -1,0 +1,17 @@
+{
+  "LGBM-AF": {
+    "num_leaves": 127,
+    "min_child_samples": 100,
+    "colsample_bytree": 0.5,
+    "n_estimators": 500,
+    "val_ap_25_29": 0.9949900483637037
+  },
+  "LGBM-AF+G": {
+    "num_leaves": 31,
+    "min_child_samples": 100,
+    "colsample_bytree": 0.5,
+    "n_estimators": 402,
+    "val_ap_25_29": 0.9948303328229205
+  },
+  "_protocol": "train labelled steps 1..24, validate 25..29 (early stopping and selection by average precision), seed 42; block 30..34 reserved for Platt + threshold"
+}

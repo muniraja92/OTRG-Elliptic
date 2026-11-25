@@ -1,0 +1,117 @@
+{
+  "oot": {
+    "config": {
+      "turn_max_epochs": 150,
+      "turn_patience": 40,
+      "turn_eval_every": 10,
+      "max_rounds": 3,
+      "round_patience": 1,
+      "alpha": 1.0,
+      "first": "MLP",
+      "pretrain": "none",
+      "conf_grad": true
+    },
+    "base": {
+      "hidden": 100,
+      "dropout": 0.3,
+      "lr": 0.01,
+      "wd": 0.0005,
+      "max_epochs": 400,
+      "patience": 60,
+      "eval_every": 10
+    },
+    "turns": [
+      {
+        "round": 0,
+        "expert": "MLP",
+        "epochs": 150,
+        "val_ap": 0.8944463297769674
+      },
+      {
+        "round": 0,
+        "expert": "GNN",
+        "epochs": 140,
+        "val_ap": 0.9151035113320097
+      },
+      {
+        "round": 1,
+        "expert": "MLP",
+        "epochs": 70,
+        "val_ap": 0.9200476400238654
+      },
+      {
+        "round": 1,
+        "expert": "GNN",
+        "epochs": 130,
+        "val_ap": 0.9231062455831974
+      },
+      {
+        "round": 2,
+        "expert": "MLP",
+        "epochs": 20,
+        "val_ap": 0.9176746563975912
+      },
+      {
+        "round": 2,
+        "expert": "GNN",
+        "epochs": 90,
+        "val_ap": 0.9182810808610743
+      }
+    ],
+    "best_val_ap": 0.9231062455831974,
+    "schedule": [
+      [
+        "MLP",
+        150
+      ],
+      [
+        "GNN",
+        140
+      ],
+      [
+        "MLP",
+        70
+      ],
+      [
+        "GNN",
+        130
+      ]
+    ],
+    "sec_per_epoch_approx": 0.8793956526120503,
+    "val_mean_conf": 0.8534318804740906,
+    "val_frac_conf_gt_0_5": 0.874466268146883
+  },
+  "refit": {
+    "config": {
+      "turn_max_epochs": 150,
+      "turn_patience": 40,
+      "turn_eval_every": 10,
+      "max_rounds": 3,
+      "round_patience": 1,
+      "alpha": 1.0,
+      "first": "MLP",
+      "pretrain": "none",
+      "conf_grad": true
+    },
+    "schedule": [
+      [
+        "MLP",
+        150
+      ],
+      [
+        "GNN",
+        140
+      ],
+      [
+        "MLP",
+        70
+      ],
+      [
+        "GNN",
+        130
+      ]
+    ],
+    "sec_per_epoch": 0.7064502297615518,
+    "mean_conf_all": 0.8565810322761536
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "LGBM-AF+Gdp": {
+    "num_leaves": 31,
+    "min_child_samples": 20,
+    "n_estimators": 907
+  },
+  "valAP_tuning_seed42": 0.9901675517892725
+}
