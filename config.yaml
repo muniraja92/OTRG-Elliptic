@@ -1,0 +1,16 @@
+# Experimental configuration (values mirrored in run_experiments.py and experiments/*.py)
+data_dir: data
+test_steps: [35, 49]
+train_steps: [1, 34]
+tuning: {train: [1, 29], validate: [30, 34]}
+crossfit_blocks: [[15, 19], [20, 24], [25, 29], [30, 34]]
+gate: {fit_blocks: [[15, 19], [20, 24], [25, 29]], penalty_prespecified: 0.01, penalty_grid: [0.0, 0.0001, 0.001, 0.01], penalty_selection: "out-of-time log-loss on steps 30-34"}
+calibration: {method: platt, block: [30, 34], threshold: "F1-optimal on block 30-34"}
+neighbourhood_view: {hops: 2, directions: [out, in], features: local (93), extras: [log_deg_in, log_deg_out, dispersion]}
+novelty: {pca_components: 20, fit_on: "all nodes of steps strictly before the scored block"}
+seeds: [42, 1, 7, 123, 2024]
+lightgbm_grid: {num_leaves: [15, 31, 63], min_child_samples: [20, 50], learning_rate: 0.05, early_stopping: 100}
+xgboost_grid: {max_depth: [4, 6, 8], learning_rate: 0.05, early_stopping: 100}
+rf_grid: {n_estimators: 500, max_features: [sqrt, 50, 0.3]}
+gcn: {layers: 2, hidden: 100, dropout: 0.3, lr: 0.01, weight_decay: 0.0005, class_weights: [0.3, 0.7], max_epochs: 400, patience: 60}
+bootstrap: {resamples: 1000, stratified_by: time_step, seed: 12345}

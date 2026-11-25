@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying article."
+title: "Out-of-time reliability gating of node and neighbourhood experts: code and results"
+authors:
+  - family-names: Muniraja
+    given-names: Pasupuleti
+    affiliation: "Vellore Institute of Technology"
+  - family-names: Satapathy
+    given-names: Shashank Mouli
+    affiliation: "Vellore Institute of Technology"
+license: MIT
+repository-code: "https://github.com/muniraja92/OTRG-Elliptic"

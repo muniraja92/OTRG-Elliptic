@@ -1,0 +1,6 @@
+{"title": "Out-of-time reliability gating of node and neighbourhood experts: code and results",
+ "upload_type": "software",
+ "creators": [{"name": "Muniraja, Pasupuleti", "affiliation": "Vellore Institute of Technology"},
+              {"name": "Satapathy, Shashank Mouli", "affiliation": "Vellore Institute of Technology"}],
+ "license": "MIT",
+ "description": "Code, configuration, saved predictions and result files for the article. Raw data are not included; scripts/download_data.py downloads and verifies them."}
