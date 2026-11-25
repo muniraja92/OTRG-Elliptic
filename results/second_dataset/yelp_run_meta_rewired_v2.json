@@ -1,0 +1,172 @@
+{
+ "42": {
+  "hp": {
+   "LGBM-node": {
+    "num_leaves": 63,
+    "min_child_samples": 20,
+    "n_estimators": 443
+   },
+   "LGBM-Grew": {
+    "num_leaves": 63,
+    "min_child_samples": 20,
+    "n_estimators": 267
+   }
+  },
+  "gates": {
+   "A-rewired-gate": {
+    "l2": 0.0,
+    "dev_logloss": 0.17080051512402683,
+    "w": [
+     -0.4845,
+     0.4333,
+     0.2854,
+     0.1133,
+     -0.0341,
+     0.0043,
+     -1.187,
+     0.1912,
+     -0.5507
+    ],
+    "alpha_mean": 0.4098729195592335,
+    "alpha_p10": 0.08480576964346584,
+    "alpha_p90": 0.7406744000866193
+   }
+  }
+ },
+ "1": {
+  "hp": {
+   "LGBM-node": {
+    "num_leaves": 31,
+    "min_child_samples": 20,
+    "n_estimators": 858
+   },
+   "LGBM-Grew": {
+    "num_leaves": 31,
+    "min_child_samples": 20,
+    "n_estimators": 430
+   }
+  },
+  "gates": {
+   "A-rewired-gate": {
+    "l2": 0.0001,
+    "dev_logloss": 0.182551680492755,
+    "w": [
+     0.1926,
+     0.1541,
+     0.0747,
+     0.0962,
+     -0.0655,
+     -0.2244,
+     -0.9799,
+     0.3351,
+     -0.464
+    ],
+    "alpha_mean": 0.5457589102621805,
+    "alpha_p10": 0.19551951755665153,
+    "alpha_p90": 0.8155829692741347
+   }
+  }
+ },
+ "7": {
+  "hp": {
+   "LGBM-node": {
+    "num_leaves": 63,
+    "min_child_samples": 20,
+    "n_estimators": 515
+   },
+   "LGBM-Grew": {
+    "num_leaves": 31,
+    "min_child_samples": 20,
+    "n_estimators": 381
+   }
+  },
+  "gates": {
+   "A-rewired-gate": {
+    "l2": 0.0001,
+    "dev_logloss": 0.17026226809136324,
+    "w": [
+     -0.2481,
+     0.2748,
+     0.246,
+     0.0079,
+     -0.1555,
+     -0.0849,
+     -0.9006,
+     0.4709,
+     -0.4145
+    ],
+    "alpha_mean": 0.45237922904349687,
+    "alpha_p10": 0.14499628275894016,
+    "alpha_p90": 0.727134588480568
+   }
+  }
+ },
+ "123": {
+  "hp": {
+   "LGBM-node": {
+    "num_leaves": 63,
+    "min_child_samples": 20,
+    "n_estimators": 411
+   },
+   "LGBM-Grew": {
+    "num_leaves": 63,
+    "min_child_samples": 20,
+    "n_estimators": 297
+   }
+  },
+  "gates": {
+   "A-rewired-gate": {
+    "l2": 0.0,
+    "dev_logloss": 0.16998963257791289,
+    "w": [
+     0.3927,
+     0.2883,
+     0.0853,
+     -0.0429,
+     0.2312,
+     -0.1927,
+     -1.4799,
+     0.3867,
+     -0.4778
+    ],
+    "alpha_mean": 0.5762212150443201,
+    "alpha_p10": 0.15546274638750876,
+    "alpha_p90": 0.8821381565784879
+   }
+  }
+ },
+ "2024": {
+  "hp": {
+   "LGBM-node": {
+    "num_leaves": 31,
+    "min_child_samples": 20,
+    "n_estimators": 733
+   },
+   "LGBM-Grew": {
+    "num_leaves": 31,
+    "min_child_samples": 20,
+    "n_estimators": 384
+   }
+  },
+  "gates": {
+   "A-rewired-gate": {
+    "l2": 0.0001,
+    "dev_logloss": 0.17510323208797232,
+    "w": [
+     0.2077,
+     0.2734,
+     -0.0376,
+     0.033,
+     0.0365,
+     -0.1153,
+     -1.1432,
+     0.2082,
+     -0.4945
+    ],
+    "alpha_mean": 0.5417876463211634,
+    "alpha_p10": 0.17517806177500844,
+    "alpha_p90": 0.8289086962042606
+   }
+  }
+ }
+}

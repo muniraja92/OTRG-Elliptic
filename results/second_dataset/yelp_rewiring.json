@@ -1,0 +1,20 @@
+{
+ "net_rsr": {
+  "edges_real": 3402743,
+  "edges_rewired": 3392069,
+  "deg_corr": 0.9999710570311918,
+  "deg_exact_frac": 0.6937154545850198
+ },
+ "net_rtr": {
+  "edges_real": 573616,
+  "edges_rewired": 573330,
+  "deg_corr": 0.9999745526581434,
+  "deg_exact_frac": 0.9882273577925752
+ },
+ "net_rur": {
+  "edges_real": 49315,
+  "edges_rewired": 49290,
+  "deg_corr": 0.9999615088469752,
+  "deg_exact_frac": 0.9990207598903251
+ }
+}

@@ -1,0 +1,121 @@
+/home/claude/TRUST_GRAF_Research/experiments/second_dataset/audit_convert.py:11: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+        That means the default return type will be a sparse array.
+        Unless you use * instead of @, ** for matrix power, or you depend
+        on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+        See the spmatrix to sparray migration guide for details.
+        https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+        
+  d = loadmat(mat)
+{
+ "name": "yelp",
+ "mat_sha256": "fedb35a8fa539b27866244d3515a47a76b20080cdacb33112da3458fd2487b42",
+ "keys": [
+  "features",
+  "homo",
+  "label",
+  "net_rsr",
+  "net_rtr",
+  "net_rur"
+ ],
+ "n_nodes": 45954,
+ "n_features": 32,
+ "label_values": {
+  "0": 39277,
+  "1": 6677
+ },
+ "n_labelled_used": 45954,
+ "n_fraud_labelled": 6677,
+ "fraud_rate_labelled": 0.14529747138442792,
+ "fraud_rate_all_nodes": 0.14529747138442792,
+ "nan_features": 0,
+ "inf_features": 0,
+ "constant_features": 0,
+ "rows_in_duplicate_feature_groups": 0,
+ "n_duplicate_groups": 0,
+ "rel_net_rsr": {
+  "nnz": 6805486,
+  "symmetric": true,
+  "undirected_edges": 3402743,
+  "self_loops": 0,
+  "weight_values": [
+   1.0
+  ],
+  "isolated_all": 40,
+  "isolated_labelled": 40,
+  "mean_degree": 148.0934412673543,
+  "max_degree": 465,
+  "edge_label_homophily": 0.7722081861604005,
+  "fraud_fraud_edge_share": 0.02598080430993466
+ },
+ "rel_net_rtr": {
+  "nnz": 1147232,
+  "symmetric": true,
+  "undirected_edges": 573616,
+  "self_loops": 0,
+  "weight_values": [
+   1.0
+  ],
+  "isolated_all": 522,
+  "isolated_labelled": 522,
+  "mean_degree": 24.964790877834357,
+  "max_degree": 118,
+  "edge_label_homophily": 0.7593302836740956,
+  "fraud_fraud_edge_share": 0.02576810967615966
+ },
+ "rel_net_rur": {
+  "nnz": 98630,
+  "symmetric": true,
+  "undirected_edges": 49315,
+  "self_loops": 0,
+  "weight_values": [
+   1.0
+  ],
+  "isolated_all": 22123,
+  "isolated_labelled": 22123,
+  "mean_degree": 2.1462767114941026,
+  "max_degree": 46,
+  "edge_label_homophily": 0.9964311061543141,
+  "fraud_fraud_edge_share": 0.01780391361654669
+ },
+ "rel_homo": {
+  "nnz": 7693958,
+  "symmetric": true,
+  "undirected_edges": 3846979,
+  "self_loops": 0,
+  "weight_values": [
+   1.0
+  ],
+  "isolated_all": 13,
+  "isolated_labelled": 13,
+  "mean_degree": 167.42738390564477,
+  "max_degree": 501,
+  "edge_label_homophily": 0.773044770974835,
+  "fraud_fraud_edge_share": 0.025547579022396533
+ },
+ "homo_equals_union_of_relations": true,
+ "homo_minus_union_nnz": 0,
+ "single_feature_auc_top5": [
+  [
+   5,
+   0.664116581312358
+  ],
+  [
+   8,
+   0.600461997832631
+  ],
+  [
+   21,
+   0.5970149366986658
+  ],
+  [
+   20,
+   0.5940561434967134
+  ],
+  [
+   2,
+   0.5884211415936431
+  ]
+ ],
+ "single_feature_auc_max": 0.664116581312358,
+ "single_feature_auc_median": 0.529915197691001
+}

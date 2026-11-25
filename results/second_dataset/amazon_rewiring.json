@@ -1,0 +1,20 @@
+{
+ "net_upu": {
+  "edges_real": 175608,
+  "edges_rewired": 162170,
+  "deg_corr": 0.9993046043999815,
+  "deg_exact_frac": 0.8610180843938379
+ },
+ "net_usu": {
+  "edges_real": 3566479,
+  "edges_rewired": 3017969,
+  "deg_corr": 0.9933331910680652,
+  "deg_exact_frac": 0.21977561955793704
+ },
+ "net_uvu": {
+  "edges_real": 1036737,
+  "edges_rewired": 953384,
+  "deg_corr": 0.991101987145105,
+  "deg_exact_frac": 0.4175318151373074
+ }
+}
